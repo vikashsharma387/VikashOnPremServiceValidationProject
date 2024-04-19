@@ -12,3 +12,22 @@ packages:
   gitUrl: https://github.com/vikashsharma387
   gitUsername: vikashsharma387
   gitBranch: main
+services:
+- serviceName: project.vikashonpremservicevalidation.integrations:OnPremServiceCheckCRT
+  packages:
+  - name: VikashOnPremServiceValidationProject
+    version: "1.0"
+  - name: webOnPremServiceValidationRepo
+    version: "1.0"
+- serviceName: ServiceValidationOnPrem.flow:ClearPiplineFS
+  packages:
+  - name: webOnPremServiceValidationRepo
+    version: "1.0"
+- serviceName: pub.string:concat
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.804
+- serviceName: pub.flow:clearPipeline
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.804
