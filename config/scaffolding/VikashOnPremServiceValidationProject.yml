@@ -37,3 +37,51 @@ services:
     version: "1.0"
   - name: webOnPremServiceValidationRepo
     version: "1.0"
+- serviceName: ServiceValidationOnPrem.flow:debugLog
+  packages:
+  - name: webOnPremServiceValidationRepo
+    version: "1.0"
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.804
+- serviceName: ServiceValidationOnPrem.flow:getLastError
+  packages:
+  - name: webOnPremServiceValidationRepo
+    version: "1.0"
+- serviceName: pub.flow:getLastError
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.804
+- serviceName: ServiceValidationOnPrem.flow:getLastErrorFailureCaught
+  packages:
+  - name: webOnPremServiceValidationRepo
+    version: "1.0"
+- serviceName: pub.flow:getLastFailureCaught
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.804
+- serviceName: ServiceValidationOnPrem.flow:getRetryCount
+  packages:
+  - name: webOnPremServiceValidationRepo
+    version: "1.0"
+- serviceName: pub.flow:getRetryCount
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.804
+- serviceName: ServiceValidationOnPrem.flow:getSession
+  packages:
+  - name: webOnPremServiceValidationRepo
+    version: "1.0"
+- serviceName: pub.flow:getSession
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.804
+- serviceName: ServiceValidationOnPrem.flow:getTransportInfo
+  packages:
+  - name: webOnPremServiceValidationRepo
+    version: "1.0"
+- serviceName: pub.flow:getTransportInfo
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.804
