@@ -31,3 +31,9 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.804
+- serviceName: project.vikashonpremservicevalidation.integrations:OnPremServiceCheckERT
+  packages:
+  - name: VikashOnPremServiceValidationProject
+    version: "1.0"
+  - name: webOnPremServiceValidationRepo
+    version: "1.0"
