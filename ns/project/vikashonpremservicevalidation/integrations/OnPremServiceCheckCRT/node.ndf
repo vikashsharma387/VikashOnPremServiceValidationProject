@@ -45,9 +45,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">vikash</value>
-    <value name="createdDate">1713523860775</value>
-    <value name="lastModifiedDate">1713523860775</value>
+    <value name="lastModifiedBy">vikash</value>
+    <value name="lastModifiedDate">1713759367555</value>
     <value name="displayName">OnPremServiceCheckCRT</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -60,9 +59,9 @@
           <null name="services"/>
         </record>
         <record name="serviceName" javaclass="com.wm.util.Values">
-          <value name="description">ServiceValidationOnPrem.flow:ClearPiplineFS</value>
-          <value name="serviceName">ServiceValidationOnPrem.flow:ClearPiplineFS</value>
-          <value name="displayName">ClearPiplineFS</value>
+          <value name="description">ServiceValidationOnPrem.flow:getTransportInfo</value>
+          <value name="serviceName">ServiceValidationOnPrem.flow:getTransportInfo</value>
+          <value name="displayName">getTransportInfo</value>
         </record>
         <null name="outputMapSet"/>
         <null name="mapSet"/>
@@ -70,6 +69,8 @@
         <value name="nodePathNew">0</value>
         <number name="nodeIndex" type="Long">0</number>
         <number name="lineNumberForDebug" type="Long">1</number>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">0</value>
       </record>
     </record>
   </record>
