@@ -53,7 +53,7 @@
   <COMMENT></COMMENT>
 </INVOKE>
 
-<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.flow:setActivityLog" DISABLED="true">
+<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.flow:setActivityLog">
   <COMMENT></COMMENT>
 </INVOKE>
 
@@ -77,7 +77,7 @@
   <COMMENT></COMMENT>
 </INVOKE>
 
-<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.flow:restorePipelineToFile">
+<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.flow:restorePipelineToFile" DISABLED="true">
   <COMMENT></COMMENT>
 </INVOKE>
 </FLOW>
