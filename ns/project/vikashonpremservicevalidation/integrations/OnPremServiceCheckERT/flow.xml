@@ -45,7 +45,7 @@
   <COMMENT></COMMENT>
 </INVOKE>
 
-<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.flow:setCustomLoggedFieldsAndCustomContextID">
+<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.flow:setCustomLoggedFieldsAndCustomContextID" DISABLED="true">
   <COMMENT></COMMENT>
 </INVOKE>
 
