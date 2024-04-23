@@ -17,7 +17,7 @@
   <COMMENT></COMMENT>
 </INVOKE>
 
-<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.flow:getLastErrorFailureCaught">
+<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.flow:getLastErrorFailureCaught" DISABLED="true">
   <COMMENT></COMMENT>
 </INVOKE>
 
@@ -65,7 +65,7 @@
   <COMMENT></COMMENT>
 </INVOKE>
 
-<INVOKE NAME="webOnPremServiceValidationRepo" DISABLED="true">
+<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.flow:ParentServiceForThrowExceptionCheck">
   <COMMENT></COMMENT>
 </INVOKE>
 </FLOW>
