@@ -24,4 +24,8 @@
 <INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.flow:getRetryCountService">
   <COMMENT></COMMENT>
 </INVOKE>
+
+<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.flow:restorePipeline">
+  <COMMENT></COMMENT>
+</INVOKE>
 </FLOW>
