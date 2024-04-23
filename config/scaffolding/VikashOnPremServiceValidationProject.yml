@@ -145,3 +145,11 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.804
+- serviceName: ServiceValidationOnPrem.flow:setActivityLog
+  packages:
+  - name: webOnPremServiceValidationRepo
+    version: "1.0"
+- serviceName: pub.flow:setActivityLog
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.804
