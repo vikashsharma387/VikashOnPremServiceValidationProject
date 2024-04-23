@@ -36,4 +36,8 @@
 <INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.flow:SavePiplineToFile">
   <COMMENT></COMMENT>
 </INVOKE>
+
+<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.flow:restorePipelineToFile">
+  <COMMENT></COMMENT>
+</INVOKE>
 </FLOW>
