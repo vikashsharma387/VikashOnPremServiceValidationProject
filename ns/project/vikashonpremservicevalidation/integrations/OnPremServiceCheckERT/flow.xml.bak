@@ -5,7 +5,7 @@
 
   <!-- nodes -->
 
-<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.flow:ClearPiplineFS" DISABLED="true">
+<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.flow:ClearPiplineFS">
   <COMMENT></COMMENT>
 </INVOKE>
 
@@ -29,7 +29,7 @@
   <COMMENT></COMMENT>
 </INVOKE>
 
-<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.flow:getTransportInfo">
+<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.flow:getTransportInfo" DISABLED="true">
   <COMMENT></COMMENT>
 </INVOKE>
 </FLOW>
