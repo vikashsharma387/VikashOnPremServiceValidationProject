@@ -13,7 +13,7 @@
   <COMMENT></COMMENT>
 </INVOKE>
 
-<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.flow:throwExceptionForRetryChild">
+<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.flow:ParentServiceForThrowExceptionCheck">
   <COMMENT></COMMENT>
 </INVOKE>
 </FLOW>
