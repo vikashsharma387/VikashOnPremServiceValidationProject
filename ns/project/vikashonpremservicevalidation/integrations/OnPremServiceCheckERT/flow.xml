@@ -45,7 +45,7 @@
   <COMMENT></COMMENT>
 </INVOKE>
 
-<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.flow:setCustomLoggedFieldsAndCustomContextID" DISABLED="true">
+<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.flow:setCustomLoggedFieldsAndCustomContextID">
   <COMMENT></COMMENT>
 </INVOKE>
 
@@ -65,7 +65,7 @@
   <COMMENT></COMMENT>
 </INVOKE>
 
-<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.flow:ParentServiceForThrowExceptionCheck">
+<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.flow:ParentServiceForThrowExceptionCheck" DISABLED="true">
   <COMMENT></COMMENT>
 </INVOKE>
 </FLOW>
