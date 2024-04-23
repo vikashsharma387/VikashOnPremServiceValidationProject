@@ -205,3 +205,11 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.804
+- serviceName: ServiceValidationOnPrem.flow:restorePipelineToFile
+  packages:
+  - name: webOnPremServiceValidationRepo
+    version: "1.0"
+- serviceName: pub.flow:restorePipelineFromFile
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.804
