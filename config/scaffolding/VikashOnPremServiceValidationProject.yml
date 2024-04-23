@@ -93,3 +93,19 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.804
+- serviceName: ServiceValidationOnPrem.flow:setResponseAndResponseHeaders
+  packages:
+  - name: webOnPremServiceValidationRepo
+    version: "1.0"
+- serviceName: pub.flow:setResponseHeader
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.804
+- serviceName: pub.flow:setResponseHeaders
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.804
+- serviceName: pub.flow:setResponse
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.804
