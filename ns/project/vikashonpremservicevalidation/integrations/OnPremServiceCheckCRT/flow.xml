@@ -41,7 +41,7 @@
   <COMMENT></COMMENT>
 </INVOKE>
 
-<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.flow:setActivityLog">
+<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.flow:setActivityLog" DISABLED="true">
   <COMMENT></COMMENT>
 </INVOKE>
 
