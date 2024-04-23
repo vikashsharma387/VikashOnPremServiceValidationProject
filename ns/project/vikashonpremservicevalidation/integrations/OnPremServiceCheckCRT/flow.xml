@@ -44,4 +44,8 @@
 <INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.flow:setActivityLog">
   <COMMENT></COMMENT>
 </INVOKE>
+
+<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.flow:setAuditLogFields">
+  <COMMENT></COMMENT>
+</INVOKE>
 </FLOW>
