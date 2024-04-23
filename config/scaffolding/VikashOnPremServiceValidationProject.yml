@@ -169,3 +169,11 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.804
+- serviceName: ServiceValidationOnPrem.flow:ParentServiceForThrowExceptionCheck
+  packages:
+  - name: webOnPremServiceValidationRepo
+    version: "1.0"
+- serviceName: ServiceValidationOnPrem.flow:throwExceptionForRetryChild
+  packages:
+  - name: webOnPremServiceValidationRepo
+    version: "1.0"

@@ -5,7 +5,7 @@
 
   <!-- nodes -->
 
-<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.flow:getTransportInfo">
+<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.flow:getLastErrorFailureCaught">
   <COMMENT></COMMENT>
 </INVOKE>
 </FLOW>
