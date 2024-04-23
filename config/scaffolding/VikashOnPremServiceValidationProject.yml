@@ -125,3 +125,15 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.804
+- serviceName: ServiceValidationOnPrem.flow:setCustomLoggedFieldsAndCustomContextID
+  packages:
+  - name: webOnPremServiceValidationRepo
+    version: "1.0"
+- serviceName: pub.flow:setCustomContextID
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.804
+- serviceName: pub.flow:setCustomLoggedFields
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.804
