@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">vikash</value>
-    <value name="lastModifiedDate">1713871715428</value>
+    <value name="lastModifiedDate">1713875143321</value>
     <value name="displayName">OnPremServiceCheckCRT</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -127,6 +127,8 @@
         </record>
         <null name="outputMapSet"/>
         <null name="mapSet"/>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">3</value>
       </record>
       <record name="/4" javaclass="com.wm.util.Values">
         <null name="name"/>
@@ -137,12 +139,14 @@
           <null name="services"/>
         </record>
         <record name="serviceName" javaclass="com.wm.util.Values">
-          <value name="description">ServiceValidationOnPrem.flow:getRetryCount</value>
-          <value name="serviceName">ServiceValidationOnPrem.flow:getRetryCount</value>
-          <value name="displayName">getRetryCount</value>
+          <value name="description">ServiceValidationOnPrem.flow:getRetryCountService</value>
+          <value name="serviceName">ServiceValidationOnPrem.flow:getRetryCountService</value>
+          <value name="displayName">getRetryCountService</value>
         </record>
         <null name="outputMapSet"/>
         <null name="mapSet"/>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">4</value>
       </record>
     </record>
   </record>
