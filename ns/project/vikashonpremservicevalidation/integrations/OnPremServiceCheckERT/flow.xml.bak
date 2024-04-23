@@ -65,7 +65,7 @@
   <COMMENT></COMMENT>
 </INVOKE>
 
-<INVOKE NAME="webOnPremServiceValidationRepo">
+<INVOKE NAME="webOnPremServiceValidationRepo" DISABLED="true">
   <COMMENT></COMMENT>
 </INVOKE>
 </FLOW>
