@@ -5,7 +5,11 @@
 
   <!-- nodes -->
 
-<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.flow:getLastErrorFailureCaught">
+<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.flow:getLastErrorFailureCaught" DISABLED="true">
+  <COMMENT></COMMENT>
+</INVOKE>
+
+<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.flow:setCustomLoggedFieldsAndCustomContextID">
   <COMMENT></COMMENT>
 </INVOKE>
 </FLOW>
