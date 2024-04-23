@@ -109,3 +109,19 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.804
+- serviceName: ServiceValidationOnPrem.flow:setResponse2AndResponseCode
+  packages:
+  - name: webOnPremServiceValidationRepo
+    version: "1.0"
+- serviceName: pub.io:stringToStream
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.804
+- serviceName: pub.flow:setResponseCode
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.804
+- serviceName: pub.flow:setResponse2
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.804
