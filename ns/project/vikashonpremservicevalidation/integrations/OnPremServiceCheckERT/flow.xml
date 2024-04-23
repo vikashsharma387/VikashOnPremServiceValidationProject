@@ -33,7 +33,7 @@
   <COMMENT></COMMENT>
 </INVOKE>
 
-<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.flow:tracePipeLine">
+<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.flow:tracePipeLine" DISABLED="true">
   <COMMENT></COMMENT>
 </INVOKE>
 
@@ -54,6 +54,10 @@
 </INVOKE>
 
 <INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.flow:setActivityLog" DISABLED="true">
+  <COMMENT></COMMENT>
+</INVOKE>
+
+<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.flow:restorePipeline">
   <COMMENT></COMMENT>
 </INVOKE>
 </FLOW>
