@@ -12,6 +12,11 @@ packages:
   gitUrl: https://github.com/vikashsharma387
   gitUsername: vikashsharma387
   gitBranch: main
+- name: ShipmentPackage
+  gitServerName: vikashNewGit
+  gitUrl: https://github.com/vikashsharma387
+  gitUsername: vikashsharma387
+  gitBranch: main
 services:
 - serviceName: project.vikashonpremservicevalidation.integrations:OnPremServiceCheckCRT
   packages:
@@ -213,3 +218,9 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.804
+- serviceName: project.vikashonpremservicevalidation.integrations:ConcatFlow
+  packages:
+  - name: VikashOnPremServiceValidationProject
+    version: "1.0"
+  - name: webOnPremServiceValidationRepo
+    version: "1.0"
