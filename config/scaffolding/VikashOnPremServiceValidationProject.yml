@@ -224,3 +224,15 @@ services:
     version: "1.0"
   - name: webOnPremServiceValidationRepo
     version: "1.0"
+- serviceName: project.vikashonpremservicevalidation.integrations:ShipmentDetails
+  packages:
+  - name: VikashOnPremServiceValidationProject
+    version: "1.0"
+  - name: ShipmentPackage
+    version: "1.0"
+  - name: webOnPremServiceValidationRepo
+    version: "1.0"
+- serviceName: ShipmentPackage.flowService:GetShipmentByID
+  packages:
+  - name: ShipmentPackage
+    version: "1.0"
