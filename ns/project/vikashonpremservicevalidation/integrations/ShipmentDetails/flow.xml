@@ -86,7 +86,7 @@
 </MAP>
 </INVOKE>
 
-<INVOKE NAME="ShipmentPackage" SERVICE="ShipmentPackage.flowService:GetShipmentOnStatus">
+<INVOKE NAME="ShipmentPackage" SERVICE="ShipmentPackage.flowService:GetShipmentOnStatus" DISABLED="true">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
@@ -167,5 +167,9 @@
 <MAP MODE="OUTPUT">
   <COMMENT></COMMENT>
 </MAP>
+</INVOKE>
+
+<INVOKE NAME="ShipmentPackage" SERVICE="ShipmentPackage.flowService:GetAllPurchaseOrderDetails">
+  <COMMENT></COMMENT>
 </INVOKE>
 </FLOW>
