@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">vikash</value>
-    <value name="lastModifiedDate">1714722471385</value>
+    <value name="lastModifiedDate">1714722511836</value>
     <value name="displayName">ShipmentDetails</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -103,9 +103,9 @@
           <null name="services"/>
         </record>
         <record name="serviceName" javaclass="com.wm.util.Values">
-          <value name="description">ShipmentPackage.flowService:GetAllPurchaseOrderDetails</value>
-          <value name="serviceName">ShipmentPackage.flowService:GetAllPurchaseOrderDetails</value>
-          <value name="displayName">GetAllPurchaseOrderDetails</value>
+          <value name="description">ShipmentPackage.AdapterServices:SelectAdapterService</value>
+          <value name="serviceName">ShipmentPackage.AdapterServices:SelectAdapterService</value>
+          <value name="displayName">SelectAdapterService</value>
         </record>
         <null name="outputMapSet"/>
         <null name="mapSet"/>
