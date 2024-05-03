@@ -29,10 +29,6 @@
   <COMMENT></COMMENT>
 </INVOKE>
 
-<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.flow:getTransportInfo">
-  <COMMENT></COMMENT>
-</INVOKE>
-
 <INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.flow:tracePipeLine" DISABLED="true">
   <COMMENT></COMMENT>
 </INVOKE>
@@ -78,6 +74,10 @@
 </INVOKE>
 
 <INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.flow:restorePipelineToFile" DISABLED="true">
+  <COMMENT></COMMENT>
+</INVOKE>
+
+<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.flow:getTransportInfo">
   <COMMENT></COMMENT>
 </INVOKE>
 </FLOW>
