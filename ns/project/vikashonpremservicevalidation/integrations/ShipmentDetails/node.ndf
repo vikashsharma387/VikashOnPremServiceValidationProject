@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">vikash</value>
-    <value name="lastModifiedDate">1714722364114</value>
+    <value name="lastModifiedDate">1714722471385</value>
     <value name="displayName">ShipmentDetails</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -109,6 +109,10 @@
         </record>
         <null name="outputMapSet"/>
         <null name="mapSet"/>
+        <number name="ui_step_index" type="Long">3</number>
+        <value name="nodePathNew">2</value>
+        <number name="nodeIndex" type="Long">2</number>
+        <number name="lineNumberForDebug" type="Long">3</number>
       </record>
     </record>
   </record>
