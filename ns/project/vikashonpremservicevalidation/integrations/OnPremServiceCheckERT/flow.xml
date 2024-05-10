@@ -81,7 +81,7 @@
   <COMMENT></COMMENT>
 </INVOKE>
 
-<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.flow:InvokeService">
+<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.flow:InvokeService" DISABLED="true">
   <COMMENT></COMMENT>
 </INVOKE>
 
