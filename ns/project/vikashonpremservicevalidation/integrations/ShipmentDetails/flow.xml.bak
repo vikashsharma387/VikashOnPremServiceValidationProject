@@ -169,7 +169,7 @@
 </MAP>
 </INVOKE>
 
-<INVOKE NAME="ShipmentPackage" SERVICE="ShipmentPackage.AdapterServices:SelectAdapterService">
+<INVOKE NAME="ShipmentPackage" SERVICE="ShipmentPackage.flowService:GetShipmentByID">
   <COMMENT></COMMENT>
 </INVOKE>
 </FLOW>
