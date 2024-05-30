@@ -169,7 +169,7 @@
 </MAP>
 </INVOKE>
 
-<INVOKE NAME="ShipmentPackage" SERVICE="ShipmentPackage.flowService:GetShipmentByID" DISABLED="true">
+<INVOKE NAME="ShipmentPackage" SERVICE="ShipmentPackage.flowService:GetShipmentByID">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
@@ -250,7 +250,7 @@
 </MAP>
 </INVOKE>
 
-<INVOKE NAME="ShipmentPackage" SERVICE="ShipmentPackage.flowService:GetShipmentByID">
+<INVOKE NAME="ShipmentPackage" SERVICE="ShipmentPackage.flowService:GetShipmentByID" DISABLED="true">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
