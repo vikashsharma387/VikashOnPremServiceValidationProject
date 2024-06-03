@@ -8,19 +8,19 @@
   <null name="shutdown_services"/>
   <null name="replication_services"/>
   <record name="requires" javaclass="com.wm.util.Values">
-    <value name="webOnPremServiceValidationRepo">1.0</value>
     <value name="ShipmentPackage">1.0</value>
+    <value name="webOnPremServiceValidationRepo">1.0</value>
   </record>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">85</value>
+  <value name="build">86</value>
   <null name="description"/>
   <value name="created_date">19-04-2024 10:38:37 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2024-05-30T06:54:36.632511949Z</value>
+  <value name="lastUpdated">2024-06-03T11:50:51.64032741Z</value>
   <value name="wmProjectId">fl5ffc465c10b1f244c957fc</value>
   <value name="creator">Vikash Sharma</value>
 </Values>

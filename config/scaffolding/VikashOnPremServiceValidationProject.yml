@@ -10,13 +10,13 @@ packages:
 - name: WmJDBCAdapter
   wpmServer: https://packages.softwareag.com
   wpmRegistry: softwareag
-- name: webOnPremServiceValidationRepo
-  gitServerName: vikashSharmaGitRepo
+- name: ShipmentPackage
+  gitServerName: vikashNewGit
   gitUrl: https://github.com/vikashsharma387
   gitUsername: vikashsharma387
   gitBranch: main
-- name: ShipmentPackage
-  gitServerName: vikashNewGit
+- name: webOnPremServiceValidationRepo
+  gitServerName: vikashSharmaGitRepo
   gitUrl: https://github.com/vikashsharma387
   gitUsername: vikashsharma387
   gitBranch: main
