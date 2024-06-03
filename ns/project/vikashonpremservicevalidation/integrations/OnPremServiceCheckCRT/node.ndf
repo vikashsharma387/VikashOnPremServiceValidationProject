@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">vikash</value>
-    <value name="lastModifiedDate">1717416564113</value>
+    <value name="lastModifiedDate">1717416587071</value>
     <value name="displayName">OnPremServiceCheckCRT</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -376,9 +376,9 @@
           <null name="services"/>
         </record>
         <record name="serviceName" javaclass="com.wm.util.Values">
-          <value name="description">ServiceValidationOnPrem.replicator:addReleaseRegistryEntry</value>
-          <value name="serviceName">ServiceValidationOnPrem.replicator:addReleaseRegistryEntry</value>
-          <value name="displayName">addReleaseRegistryEntry</value>
+          <value name="description">ServiceValidationOnPrem.replicator:deleteReleaseRegistryEntry</value>
+          <value name="serviceName">ServiceValidationOnPrem.replicator:deleteReleaseRegistryEntry</value>
+          <value name="displayName">deleteReleaseRegistryEntry</value>
         </record>
         <null name="outputMapSet"/>
         <null name="mapSet"/>
