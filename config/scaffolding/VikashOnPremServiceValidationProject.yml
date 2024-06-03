@@ -325,6 +325,18 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.804
+- serviceName: ServiceValidationOnPrem.replicator:addReleaseRegistryEntry
+  packages:
+  - name: webOnPremServiceValidationRepo
+    version: "1.0"
+- serviceName: pub.replicator:packageCreation
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.804
+- serviceName: pub.replicator:addReleaseRegistryEntry
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.804
 configurationVariables:
   ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionSettings.databaseName
   : DataStore
