@@ -65,7 +65,7 @@
   <COMMENT></COMMENT>
 </INVOKE>
 
-<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.replicator:deleteReleaseRegistryEntry">
+<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.replicator:addReleaseRegistryEntry">
   <COMMENT></COMMENT>
 </INVOKE>
 </FLOW>
