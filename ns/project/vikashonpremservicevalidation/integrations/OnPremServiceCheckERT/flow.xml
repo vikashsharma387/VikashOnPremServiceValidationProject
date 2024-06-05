@@ -89,7 +89,11 @@
   <COMMENT></COMMENT>
 </INVOKE>
 
-<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.trigger:createJMSTrigger">
+<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.trigger:createJMSTrigger" DISABLED="true">
+  <COMMENT></COMMENT>
+</INVOKE>
+
+<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.file:bytesToFile">
   <COMMENT></COMMENT>
 </INVOKE>
 </FLOW>

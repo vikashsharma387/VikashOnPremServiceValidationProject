@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<FLOW VERSION="1.0" CLEANUP="false">
+<FLOW VERSION="3.0" CLEANUP="true">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
@@ -85,7 +85,11 @@
   <COMMENT></COMMENT>
 </INVOKE>
 
-<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.flow:InvokeIteratorService">
+<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.flow:InvokeIteratorService" DISABLED="true">
+  <COMMENT></COMMENT>
+</INVOKE>
+
+<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.trigger:createJMSTrigger">
   <COMMENT></COMMENT>
 </INVOKE>
 </FLOW>
