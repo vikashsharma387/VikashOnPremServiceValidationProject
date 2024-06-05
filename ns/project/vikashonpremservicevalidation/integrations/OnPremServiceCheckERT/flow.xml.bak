@@ -93,7 +93,7 @@
   <COMMENT></COMMENT>
 </INVOKE>
 
-<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.file:bytesToFile">
+<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.file:bytesToFile" DISABLED="true">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
@@ -221,5 +221,9 @@
 <MAP MODE="OUTPUT">
   <COMMENT></COMMENT>
 </MAP>
+</INVOKE>
+
+<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.replicator:addReleaseRegistryEntry">
+  <COMMENT></COMMENT>
 </INVOKE>
 </FLOW>
