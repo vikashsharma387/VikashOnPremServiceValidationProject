@@ -69,7 +69,7 @@
   <COMMENT></COMMENT>
 </INVOKE>
 
-<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.file:bytesToFile">
+<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.file:bytesToFile" DISABLED="true">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
@@ -200,6 +200,10 @@
 </INVOKE>
 
 <INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.file:getFile" DISABLED="true">
+  <COMMENT></COMMENT>
+</INVOKE>
+
+<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.scheduler:addComplexTask">
   <COMMENT></COMMENT>
 </INVOKE>
 </FLOW>
