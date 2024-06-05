@@ -198,4 +198,8 @@
   <COMMENT></COMMENT>
 </MAP>
 </INVOKE>
+
+<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.file:getFile">
+  <COMMENT></COMMENT>
+</INVOKE>
 </FLOW>
