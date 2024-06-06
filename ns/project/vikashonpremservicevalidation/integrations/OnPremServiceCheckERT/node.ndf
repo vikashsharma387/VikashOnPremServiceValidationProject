@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">vikash</value>
-    <value name="lastModifiedDate">1717584245943</value>
+    <value name="lastModifiedDate">1717665291803</value>
     <value name="displayName">OnPremServiceCheckERT</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -511,6 +511,8 @@
         <value name="nodePathNew">21</value>
         <number name="nodeIndex" type="Long">21</number>
         <number name="lineNumberForDebug" type="Long">22</number>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">21</value>
       </record>
       <record name="/22" javaclass="com.wm.util.Values">
         <null name="name"/>
@@ -531,6 +533,8 @@
         <value name="nodePathNew">22</value>
         <number name="nodeIndex" type="Long">22</number>
         <number name="lineNumberForDebug" type="Long">23</number>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">22</value>
       </record>
       <record name="/23" javaclass="com.wm.util.Values">
         <null name="name"/>
@@ -547,6 +551,8 @@
         </record>
         <null name="outputMapSet"/>
         <null name="mapSet"/>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">23</value>
       </record>
       <record name="/24" javaclass="com.wm.util.Values">
         <null name="name"/>
@@ -563,6 +569,8 @@
         </record>
         <null name="outputMapSet"/>
         <null name="mapSet"/>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">24</value>
       </record>
     </record>
   </record>
