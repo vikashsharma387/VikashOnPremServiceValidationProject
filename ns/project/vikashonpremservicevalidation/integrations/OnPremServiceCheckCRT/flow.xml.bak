@@ -226,4 +226,8 @@
 <INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.trigger:disableJMSTriggers">
   <COMMENT></COMMENT>
 </INVOKE>
+
+<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.trigger:enableJMSTriggers">
+  <COMMENT></COMMENT>
+</INVOKE>
 </FLOW>
