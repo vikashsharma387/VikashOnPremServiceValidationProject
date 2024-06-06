@@ -207,7 +207,7 @@
   <COMMENT></COMMENT>
 </INVOKE>
 
-<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.trigger:createJMSTrigger">
+<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.trigger:deleteJMSTrigger">
   <COMMENT></COMMENT>
 </INVOKE>
 </FLOW>

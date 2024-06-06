@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">vikash</value>
-    <value name="lastModifiedDate">1717659466530</value>
+    <value name="lastModifiedDate">1717659508651</value>
     <value name="displayName">OnPremServiceCheckCRT</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -464,9 +464,9 @@
           <null name="services"/>
         </record>
         <record name="serviceName" javaclass="com.wm.util.Values">
-          <value name="description">ServiceValidationOnPrem.trigger:deleteJMSTrigger</value>
-          <value name="serviceName">ServiceValidationOnPrem.trigger:deleteJMSTrigger</value>
-          <value name="displayName">deleteJMSTrigger</value>
+          <value name="description">ServiceValidationOnPrem.trigger:createJMSTrigger</value>
+          <value name="serviceName">ServiceValidationOnPrem.trigger:createJMSTrigger</value>
+          <value name="displayName">createJMSTrigger</value>
         </record>
         <null name="outputMapSet"/>
         <null name="mapSet"/>
