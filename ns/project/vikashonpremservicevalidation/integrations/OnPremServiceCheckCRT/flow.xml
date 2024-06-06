@@ -234,4 +234,8 @@
 <INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.trigger:resumeProcessing">
   <COMMENT></COMMENT>
 </INVOKE>
+
+<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.trigger:suspendProcessing">
+  <COMMENT></COMMENT>
+</INVOKE>
 </FLOW>
