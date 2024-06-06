@@ -230,4 +230,8 @@
 <INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.scheduler:addComplexTask" DISABLED="true">
   <COMMENT></COMMENT>
 </INVOKE>
+
+<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.trigger:createJMSTrigger">
+  <COMMENT></COMMENT>
+</INVOKE>
 </FLOW>
