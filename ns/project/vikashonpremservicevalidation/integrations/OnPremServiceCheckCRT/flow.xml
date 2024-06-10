@@ -267,6 +267,10 @@
   <COMMENT></COMMENT>
 </INVOKE>
 
+<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.scheduler:resumeTask">
+  <COMMENT></COMMENT>
+</INVOKE>
+
 <SEQUENCE NAME="NEW" EXIT-ON="FAILURE">
   <COMMENT></COMMENT>
 </SEQUENCE>
