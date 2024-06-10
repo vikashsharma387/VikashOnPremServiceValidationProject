@@ -251,6 +251,10 @@
   <COMMENT></COMMENT>
 </INVOKE>
 
+<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.scheduler:addOneTimeTask">
+  <COMMENT></COMMENT>
+</INVOKE>
+
 <INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.scheduler:addRepeatingTask" DISABLED="true">
   <COMMENT></COMMENT>
 </INVOKE>
@@ -287,7 +291,7 @@
   <COMMENT></COMMENT>
 </INVOKE>
 
-<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.scheduler:updateRepeatingTask">
+<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.scheduler:updateRepeatingTask" DISABLED="true">
   <COMMENT></COMMENT>
 </INVOKE>
 </FLOW>
