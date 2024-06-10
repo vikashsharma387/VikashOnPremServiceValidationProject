@@ -223,7 +223,7 @@
   <COMMENT></COMMENT>
 </INVOKE>
 
-<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.trigger:disableJMSTriggers">
+<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.trigger:disableJMSTriggers" DISABLED="true">
   <COMMENT></COMMENT>
 </INVOKE>
 
@@ -231,11 +231,15 @@
   <COMMENT></COMMENT>
 </INVOKE>
 
-<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.trigger:resumeProcessing">
+<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.trigger:resumeProcessing" DISABLED="true">
   <COMMENT></COMMENT>
 </INVOKE>
 
 <INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.trigger:suspendProcessing">
   <COMMENT></COMMENT>
 </INVOKE>
+
+<SEQUENCE NAME="NEW" EXIT-ON="FAILURE">
+  <COMMENT></COMMENT>
+</SEQUENCE>
 </FLOW>

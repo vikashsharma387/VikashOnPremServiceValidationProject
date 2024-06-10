@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">vikash</value>
-    <value name="lastModifiedDate">1717665180641</value>
+    <value name="lastModifiedDate">1717999960711</value>
     <value name="displayName">OnPremServiceCheckCRT</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -496,6 +496,8 @@
         <value name="nodePathNew">20</value>
         <number name="nodeIndex" type="Long">20</number>
         <number name="lineNumberForDebug" type="Long">21</number>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">20</value>
       </record>
       <record name="/21" javaclass="com.wm.util.Values">
         <null name="name"/>
@@ -512,6 +514,8 @@
         </record>
         <null name="outputMapSet"/>
         <null name="mapSet"/>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">21</value>
       </record>
       <record name="/22" javaclass="com.wm.util.Values">
         <null name="name"/>
@@ -528,6 +532,8 @@
         </record>
         <null name="outputMapSet"/>
         <null name="mapSet"/>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">22</value>
       </record>
       <record name="/23" javaclass="com.wm.util.Values">
         <null name="name"/>
@@ -544,6 +550,8 @@
         </record>
         <null name="outputMapSet"/>
         <null name="mapSet"/>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">23</value>
       </record>
       <record name="/24" javaclass="com.wm.util.Values">
         <null name="name"/>
@@ -560,6 +568,8 @@
         </record>
         <null name="outputMapSet"/>
         <null name="mapSet"/>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">24</value>
       </record>
       <record name="/25" javaclass="com.wm.util.Values">
         <null name="name"/>
@@ -576,6 +586,8 @@
         </record>
         <null name="outputMapSet"/>
         <null name="mapSet"/>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">25</value>
       </record>
       <record name="/26" javaclass="com.wm.util.Values">
         <null name="name"/>
@@ -592,10 +604,32 @@
         </record>
         <null name="outputMapSet"/>
         <null name="mapSet"/>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">26</value>
       </record>
       <record name="/27" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">PACKAGES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">webOnPremServiceValidationRepo</value>
+          <value name="groupName">webOnPremServiceValidationRepo;1.0</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="description">ServiceValidationOnPrem.scheduler:addComplexTask</value>
+          <value name="serviceName">ServiceValidationOnPrem.scheduler:addComplexTask</value>
+          <value name="displayName">addComplexTask</value>
+        </record>
+        <null name="outputMapSet"/>
+        <null name="mapSet"/>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">26</value>
+        <Boolean name="allowCustomOperations">true</Boolean>
+      </record>
+      <record name="/28" javaclass="com.wm.util.Values">
         <value name="itemType">ALL</value>
         <value name="name">NEW</value>
+        <value name="nodePathForDebug">27</value>
       </record>
     </record>
   </record>
