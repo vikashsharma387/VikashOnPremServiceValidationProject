@@ -11,11 +11,13 @@ packages:
   wpmServer: https://packages.softwareag.com
   wpmRegistry: softwareag
 - name: ShipmentPackage
+  version: "1.0"
   gitServerName: vikashNewGit
   gitUrl: https://github.com/vikashsharma387
   gitUsername: vikashsharma387
   gitBranch: main
 - name: webOnPremServiceValidationRepo
+  version: "1.0"
   gitServerName: vikashSharmaGitRepo
   gitUrl: https://github.com/vikashsharma387
   gitUsername: vikashsharma387
@@ -36,11 +38,11 @@ services:
 - serviceName: pub.string:concat
   packages:
   - name: WmPublic
-    version: 11.0.0.0.804
+    version: 11.0.0.0.927
 - serviceName: pub.flow:clearPipeline
   packages:
   - name: WmPublic
-    version: 11.0.0.0.804
+    version: 11.0.0.0.927
 - serviceName: project.vikashonpremservicevalidation.integrations:OnPremServiceCheckERT
   packages:
   - name: VikashOnPremServiceValidationProject
@@ -56,7 +58,7 @@ services:
 - serviceName: pub.flow:debugLog
   packages:
   - name: WmPublic
-    version: 11.0.0.0.804
+    version: 11.0.0.0.927
 - serviceName: ServiceValidationOnPrem.flow:getLastError
   packages:
   - name: webOnPremServiceValidationRepo
@@ -64,7 +66,7 @@ services:
 - serviceName: pub.flow:getLastError
   packages:
   - name: WmPublic
-    version: 11.0.0.0.804
+    version: 11.0.0.0.927
 - serviceName: ServiceValidationOnPrem.flow:getLastErrorFailureCaught
   packages:
   - name: webOnPremServiceValidationRepo
@@ -72,7 +74,7 @@ services:
 - serviceName: pub.flow:getLastFailureCaught
   packages:
   - name: WmPublic
-    version: 11.0.0.0.804
+    version: 11.0.0.0.927
 - serviceName: ServiceValidationOnPrem.flow:getRetryCount
   packages:
   - name: webOnPremServiceValidationRepo
@@ -80,7 +82,7 @@ services:
 - serviceName: pub.flow:getRetryCount
   packages:
   - name: WmPublic
-    version: 11.0.0.0.804
+    version: 11.0.0.0.927
 - serviceName: ServiceValidationOnPrem.flow:getSession
   packages:
   - name: webOnPremServiceValidationRepo
@@ -88,7 +90,7 @@ services:
 - serviceName: pub.flow:getSession
   packages:
   - name: WmPublic
-    version: 11.0.0.0.804
+    version: 11.0.0.0.927
 - serviceName: ServiceValidationOnPrem.flow:getTransportInfo
   packages:
   - name: webOnPremServiceValidationRepo
@@ -96,7 +98,7 @@ services:
 - serviceName: pub.flow:getTransportInfo
   packages:
   - name: WmPublic
-    version: 11.0.0.0.804
+    version: 11.0.0.0.927
 - serviceName: ServiceValidationOnPrem.flow:tracePipeLine
   packages:
   - name: webOnPremServiceValidationRepo
@@ -104,7 +106,7 @@ services:
 - serviceName: pub.flow:tracePipeline
   packages:
   - name: WmPublic
-    version: 11.0.0.0.804
+    version: 11.0.0.0.927
 - serviceName: ServiceValidationOnPrem.flow:setResponseAndResponseHeaders
   packages:
   - name: webOnPremServiceValidationRepo
@@ -112,15 +114,15 @@ services:
 - serviceName: pub.flow:setResponseHeader
   packages:
   - name: WmPublic
-    version: 11.0.0.0.804
+    version: 11.0.0.0.927
 - serviceName: pub.flow:setResponseHeaders
   packages:
   - name: WmPublic
-    version: 11.0.0.0.804
+    version: 11.0.0.0.927
 - serviceName: pub.flow:setResponse
   packages:
   - name: WmPublic
-    version: 11.0.0.0.804
+    version: 11.0.0.0.927
 - serviceName: ServiceValidationOnPrem.flow:setResponse2AndResponseCode
   packages:
   - name: webOnPremServiceValidationRepo
@@ -128,15 +130,15 @@ services:
 - serviceName: pub.io:stringToStream
   packages:
   - name: WmPublic
-    version: 11.0.0.0.804
+    version: 11.0.0.0.927
 - serviceName: pub.flow:setResponseCode
   packages:
   - name: WmPublic
-    version: 11.0.0.0.804
+    version: 11.0.0.0.927
 - serviceName: pub.flow:setResponse2
   packages:
   - name: WmPublic
-    version: 11.0.0.0.804
+    version: 11.0.0.0.927
 - serviceName: ServiceValidationOnPrem.flow:setCustomLoggedFieldsAndCustomContextID
   packages:
   - name: webOnPremServiceValidationRepo
@@ -144,11 +146,11 @@ services:
 - serviceName: pub.flow:setCustomContextID
   packages:
   - name: WmPublic
-    version: 11.0.0.0.804
+    version: 11.0.0.0.927
 - serviceName: pub.flow:setCustomLoggedFields
   packages:
   - name: WmPublic
-    version: 11.0.0.0.804
+    version: 11.0.0.0.927
 - serviceName: ServiceValidationOnPrem.flow:setAuditLogFields
   packages:
   - name: webOnPremServiceValidationRepo
@@ -156,7 +158,7 @@ services:
 - serviceName: pub.flow:setAuditLogFields
   packages:
   - name: WmPublic
-    version: 11.0.0.0.804
+    version: 11.0.0.0.927
 - serviceName: ServiceValidationOnPrem.flow:setActivityLog
   packages:
   - name: webOnPremServiceValidationRepo
@@ -164,7 +166,7 @@ services:
 - serviceName: pub.flow:setActivityLog
   packages:
   - name: WmPublic
-    version: 11.0.0.0.804
+    version: 11.0.0.0.927
 - serviceName: ServiceValidationOnPrem.flow:restorePipeline
   packages:
   - name: webOnPremServiceValidationRepo
@@ -172,7 +174,7 @@ services:
 - serviceName: pub.flow:restorePipeline
   packages:
   - name: WmPublic
-    version: 11.0.0.0.804
+    version: 11.0.0.0.927
 - serviceName: ServiceValidationOnPrem.flow:SavePipline
   packages:
   - name: webOnPremServiceValidationRepo
@@ -180,7 +182,7 @@ services:
 - serviceName: pub.flow:savePipeline
   packages:
   - name: WmPublic
-    version: 11.0.0.0.804
+    version: 11.0.0.0.927
 - serviceName: ServiceValidationOnPrem.flow:ParentServiceForThrowExceptionCheck
   packages:
   - name: webOnPremServiceValidationRepo
@@ -192,7 +194,7 @@ services:
 - serviceName: pub.flow:throwExceptionForRetry
   packages:
   - name: WmPublic
-    version: 11.0.0.0.804
+    version: 11.0.0.0.927
 - serviceName: ServiceValidationOnPrem.flow:GetDetailsforCallingService
   packages:
   - name: webOnPremServiceValidationRepo
@@ -204,7 +206,7 @@ services:
 - serviceName: pub.flow:getCallingService
   packages:
   - name: WmPublic
-    version: 11.0.0.0.804
+    version: 11.0.0.0.927
 - serviceName: ServiceValidationOnPrem.flow:getRetryCountService
   packages:
   - name: webOnPremServiceValidationRepo
@@ -216,7 +218,7 @@ services:
 - serviceName: pub.flow:savePipelineToFile
   packages:
   - name: WmPublic
-    version: 11.0.0.0.804
+    version: 11.0.0.0.927
 - serviceName: ServiceValidationOnPrem.flow:restorePipelineToFile
   packages:
   - name: webOnPremServiceValidationRepo
@@ -224,7 +226,7 @@ services:
 - serviceName: pub.flow:restorePipelineFromFile
   packages:
   - name: WmPublic
-    version: 11.0.0.0.804
+    version: 11.0.0.0.927
 - serviceName: project.vikashonpremservicevalidation.integrations:ConcatFlow
   packages:
   - name: VikashOnPremServiceValidationProject
@@ -288,7 +290,7 @@ services:
 - serviceName: pub.flow:invokeService
   packages:
   - name: WmPublic
-    version: 11.0.0.0.804
+    version: 11.0.0.0.927
 - serviceName: project.vikashonpremservicevalidation.integrations:SFTPserviceCheck
   packages:
   - name: VikashOnPremServiceValidationProject
@@ -312,7 +314,7 @@ services:
 - serviceName: pub.flow:iterator
   packages:
   - name: WmPublic
-    version: 11.0.0.0.804
+    version: 11.0.0.0.927
 - serviceName: ServiceValidationOnPrem.scheduler:SchedulerService
   packages:
   - name: webOnPremServiceValidationRepo
@@ -324,7 +326,7 @@ services:
 - serviceName: pub.scheduler:addComplexTask
   packages:
   - name: WmPublic
-    version: 11.0.0.0.804
+    version: 11.0.0.0.927
 - serviceName: ServiceValidationOnPrem.replicator:addReleaseRegistryEntry
   packages:
   - name: webOnPremServiceValidationRepo
@@ -332,11 +334,11 @@ services:
 - serviceName: pub.replicator:packageCreation
   packages:
   - name: WmPublic
-    version: 11.0.0.0.804
+    version: 11.0.0.0.927
 - serviceName: pub.replicator:addReleaseRegistryEntry
   packages:
   - name: WmPublic
-    version: 11.0.0.0.804
+    version: 11.0.0.0.927
 - serviceName: ServiceValidationOnPrem.replicator:deleteReleaseRegistryEntry
   packages:
   - name: webOnPremServiceValidationRepo
@@ -352,11 +354,11 @@ services:
 - serviceName: pub.document:documentToBytes
   packages:
   - name: WmPublic
-    version: 11.0.0.0.804
+    version: 11.0.0.0.927
 - serviceName: pub.file:bytesToFile
   packages:
   - name: WmPublic
-    version: 11.0.0.0.804
+    version: 11.0.0.0.927
 - serviceName: ServiceValidationOnPrem.file:getFile
   packages:
   - name: webOnPremServiceValidationRepo
@@ -376,7 +378,7 @@ services:
 - serviceName: pub.trigger:createJMSTrigger
   packages:
   - name: WmPublic
-    version: 11.0.0.0.804
+    version: 11.0.0.0.927
 - serviceName: ServiceValidationOnPrem.trigger:deleteJMSTrigger
   packages:
   - name: webOnPremServiceValidationRepo
@@ -384,7 +386,7 @@ services:
 - serviceName: pub.trigger:deleteJMSTrigger
   packages:
   - name: WmPublic
-    version: 11.0.0.0.804
+    version: 11.0.0.0.927
 - serviceName: ServiceValidationOnPrem.trigger:createTrigger
   packages:
   - name: webOnPremServiceValidationRepo
@@ -392,7 +394,7 @@ services:
 - serviceName: pub.trigger:createTrigger
   packages:
   - name: WmPublic
-    version: 11.0.0.0.804
+    version: 11.0.0.0.927
 - serviceName: ServiceValidationOnPrem.trigger:deleteTrigger
   packages:
   - name: webOnPremServiceValidationRepo
@@ -408,7 +410,7 @@ services:
 - serviceName: pub.trigger:disableJMSTriggers
   packages:
   - name: WmPublic
-    version: 11.0.0.0.804
+    version: 11.0.0.0.927
 - serviceName: ServiceValidationOnPrem.trigger:enableJMSTriggers
   packages:
   - name: webOnPremServiceValidationRepo
@@ -416,7 +418,7 @@ services:
 - serviceName: pub.trigger:enableJMSTriggers
   packages:
   - name: WmPublic
-    version: 11.0.0.0.804
+    version: 11.0.0.0.927
 - serviceName: ServiceValidationOnPrem.trigger:resumeProcessing
   packages:
   - name: webOnPremServiceValidationRepo
@@ -433,50 +435,58 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.804
+- serviceName: ServiceValidationOnPrem.scheduler:addOneTimeTask
+  packages:
+  - name: webOnPremServiceValidationRepo
+    version: "1.0"
+- serviceName: pub.scheduler:addOneTimeTask
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.927
 configurationVariables:
   ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionSettings.databaseName
   : DataStore
   ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionSettings.password
   : "{AES}aYrXC43dTWsDUHRWG5mhTA=="
-  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionSettings.otherProperties
-  : loginTimeout=60;
-  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionEnabled
-  : "false"
   ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionSettings.keyStore
   : ""
-  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionManagerSettings.startupBackoffSecs
-  : "10"
   ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionManagerSettings.startupRetryCount
   : "0"
   ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionManagerSettings.poolIncrementSize
   : "1"
-  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionSettings.user
-  : sa
-  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionManagerSettings.expireTimeout
-  : "1000"
   ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionSettings.dbType
   : MSSQL
-  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionManagerSettings.blockingTimeout
-  : "1000"
-  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionManagerSettings.heartBeatInterval
-  : "0"
   ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionSettings.datasourceClass
   : com.wm.dd.jdbcx.sqlserver.SQLServerDataSource
   ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionSettings.portNumber
   : "1433"
-  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionSettings.serverName
-  : host.docker.internal
-  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionSettings.driverType
-  : Progress® DataDirect®
   ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionSettings.networkProtocol
-  : ""
-  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionManagerSettings.poolable
-  : "false"
-  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionManagerSettings.minimumPoolSize
-  : "0"
-  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionSettings.trustStore
   : ""
   ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionSettings.transactionType
   : NO_TRANSACTION
+  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionSettings.otherProperties
+  : loginTimeout=60;
+  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionSettings.trustStore
+  : ""
   ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionManagerSettings.maximumPoolSize
   : "10"
+  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionManagerSettings.expireTimeout
+  : "1000"
+  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionManagerSettings.blockingTimeout
+  : "1000"
+  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionSettings.serverName
+  : host.docker.internal
+  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionManagerSettings.poolable
+  : "false"
+  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionEnabled
+  : "false"
+  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionManagerSettings.startupBackoffSecs
+  : "10"
+  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionSettings.user
+  : sa
+  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionManagerSettings.heartBeatInterval
+  : "0"
+  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionSettings.driverType
+  : Progress® DataDirect®
+  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionManagerSettings.minimumPoolSize
+  : "0"
