@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">vikash</value>
-    <value name="lastModifiedDate">1717999157197</value>
+    <value name="lastModifiedDate">1717999611365</value>
     <value name="displayName">OnPremServiceCheckERT</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -793,6 +793,23 @@
           <value name="description">ServiceValidationOnPrem.scheduler:updateComplexTask</value>
           <value name="serviceName">ServiceValidationOnPrem.scheduler:updateComplexTask</value>
           <value name="displayName">updateComplexTask</value>
+        </record>
+        <null name="outputMapSet"/>
+        <null name="mapSet"/>
+        <Boolean name="allowCustomOperations">true</Boolean>
+      </record>
+      <record name="/38" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">PACKAGES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">webOnPremServiceValidationRepo</value>
+          <value name="groupName">webOnPremServiceValidationRepo;1.0</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="description">ServiceValidationOnPrem.scheduler:updateOneTimeTask</value>
+          <value name="serviceName">ServiceValidationOnPrem.scheduler:updateOneTimeTask</value>
+          <value name="displayName">updateOneTimeTask</value>
         </record>
         <null name="outputMapSet"/>
         <null name="mapSet"/>
