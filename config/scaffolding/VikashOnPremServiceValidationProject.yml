@@ -366,11 +366,11 @@ services:
 - serviceName: pub.file:getFile
   packages:
   - name: WmPublic
-    version: 11.0.0.0.804
+    version: 11.0.0.0.927
 - serviceName: pub.string:bytesToString
   packages:
   - name: WmPublic
-    version: 11.0.0.0.804
+    version: 11.0.0.0.927
 - serviceName: ServiceValidationOnPrem.trigger:createJMSTrigger
   packages:
   - name: webOnPremServiceValidationRepo
@@ -402,7 +402,7 @@ services:
 - serviceName: pub.trigger:deleteTrigger
   packages:
   - name: WmPublic
-    version: 11.0.0.0.804
+    version: 11.0.0.0.927
 - serviceName: ServiceValidationOnPrem.trigger:disableJMSTriggers
   packages:
   - name: webOnPremServiceValidationRepo
@@ -426,7 +426,7 @@ services:
 - serviceName: pub.trigger:resumeProcessing
   packages:
   - name: WmPublic
-    version: 11.0.0.0.804
+    version: 11.0.0.0.927
 - serviceName: ServiceValidationOnPrem.trigger:suspendProcessing
   packages:
   - name: webOnPremServiceValidationRepo
@@ -434,7 +434,7 @@ services:
 - serviceName: pub.trigger:suspendProcessing
   packages:
   - name: WmPublic
-    version: 11.0.0.0.804
+    version: 11.0.0.0.927
 - serviceName: ServiceValidationOnPrem.scheduler:addOneTimeTask
   packages:
   - name: webOnPremServiceValidationRepo
