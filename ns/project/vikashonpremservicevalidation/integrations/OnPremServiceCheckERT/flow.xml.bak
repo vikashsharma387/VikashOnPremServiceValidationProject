@@ -251,7 +251,7 @@
   <COMMENT></COMMENT>
 </INVOKE>
 
-<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.scheduler:addOneTimeTask">
+<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.scheduler:addRepeatingTask">
   <COMMENT></COMMENT>
 </INVOKE>
 </FLOW>

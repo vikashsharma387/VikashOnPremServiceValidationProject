@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">vikash</value>
-    <value name="lastModifiedDate">1717996053345</value>
+    <value name="lastModifiedDate">1717996164682</value>
     <value name="displayName">OnPremServiceCheckERT</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -676,6 +676,22 @@
           <value name="description">ServiceValidationOnPrem.scheduler:addRepeatingTask</value>
           <value name="serviceName">ServiceValidationOnPrem.scheduler:addRepeatingTask</value>
           <value name="displayName">addRepeatingTask</value>
+        </record>
+        <null name="outputMapSet"/>
+        <null name="mapSet"/>
+      </record>
+      <record name="/31" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">PACKAGES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">webOnPremServiceValidationRepo</value>
+          <value name="groupName">webOnPremServiceValidationRepo;1.0</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="description">ServiceValidationOnPrem.scheduler:cancelTask</value>
+          <value name="serviceName">ServiceValidationOnPrem.scheduler:cancelTask</value>
+          <value name="displayName">cancelTask</value>
         </record>
         <null name="outputMapSet"/>
         <null name="mapSet"/>
