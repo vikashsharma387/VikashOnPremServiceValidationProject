@@ -307,7 +307,7 @@
   <COMMENT></COMMENT>
 </INVOKE>
 
-<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.utils:createSecureString">
+<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.utils:createSecureString" DISABLED="true">
   <COMMENT></COMMENT>
 </INVOKE>
 
@@ -316,6 +316,10 @@
 </INVOKE>
 
 <INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.utils:getCertificateInfo">
+  <COMMENT></COMMENT>
+</INVOKE>
+
+<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.utils:getCertificateInfo" DISABLED="true">
   <COMMENT></COMMENT>
 </INVOKE>
 
