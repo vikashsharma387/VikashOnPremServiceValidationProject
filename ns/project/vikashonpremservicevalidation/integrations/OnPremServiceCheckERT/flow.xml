@@ -307,7 +307,7 @@
   <COMMENT></COMMENT>
 </INVOKE>
 
-<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.utils:createSecureString" DISABLED="true">
+<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.utils:createSecureString">
   <COMMENT></COMMENT>
 </INVOKE>
 
@@ -319,7 +319,7 @@
   <COMMENT></COMMENT>
 </INVOKE>
 
-<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.utils:loadPKCS7CertChain">
+<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.utils:loadPKCS7CertChain" DISABLED="true">
   <COMMENT></COMMENT>
 </INVOKE>
 </FLOW>

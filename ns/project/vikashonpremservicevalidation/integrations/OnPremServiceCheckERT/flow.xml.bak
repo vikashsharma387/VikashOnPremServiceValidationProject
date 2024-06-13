@@ -319,7 +319,7 @@
   <COMMENT></COMMENT>
 </INVOKE>
 
-<SEQUENCE NAME="NEW" EXIT-ON="FAILURE">
+<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.utils:loadPKCS7CertChain">
   <COMMENT></COMMENT>
-</SEQUENCE>
+</INVOKE>
 </FLOW>

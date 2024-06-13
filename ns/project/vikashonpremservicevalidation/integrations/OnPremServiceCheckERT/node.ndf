@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">vikash</value>
-    <value name="lastModifiedDate">1718256754468</value>
+    <value name="lastModifiedDate">1718274007288</value>
     <value name="displayName">OnPremServiceCheckERT</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -1076,6 +1076,8 @@
         </record>
         <null name="outputMapSet"/>
         <null name="mapSet"/>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">47</value>
       </record>
     </record>
   </record>
