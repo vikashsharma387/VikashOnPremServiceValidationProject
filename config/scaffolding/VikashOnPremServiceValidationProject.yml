@@ -571,6 +571,22 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.927
+- serviceName: ServiceValidationOnPrem.utils:getCertificateInfo
+  packages:
+  - name: webOnPremServiceValidationRepo
+    version: "1.0"
+- serviceName: pub.security.keystore:getCertificate
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.927
+- serviceName: pub.security.util:getCertificateInfo
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.927
+- serviceName: pub.security.util:loadPKCS7CertChain
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.927
 configurationVariables:
   ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionSettings.databaseName
   : DataStore
