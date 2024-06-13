@@ -307,7 +307,7 @@
   <COMMENT></COMMENT>
 </INVOKE>
 
-<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.utils:createSecureString">
+<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.file:bytesToFile">
   <COMMENT></COMMENT>
 </INVOKE>
 
