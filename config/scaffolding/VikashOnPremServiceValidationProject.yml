@@ -563,6 +563,14 @@ services:
   packages:
   - name: webOnPremServiceValidationRepo
     version: "1.0"
+- serviceName: ServiceValidationOnPrem.utils:destroySecureString
+  packages:
+  - name: webOnPremServiceValidationRepo
+    version: "1.0"
+- serviceName: pub.security.util:destroySecureString
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.927
 configurationVariables:
   ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionSettings.databaseName
   : DataStore
