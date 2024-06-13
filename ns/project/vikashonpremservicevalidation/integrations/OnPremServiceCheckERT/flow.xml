@@ -295,7 +295,7 @@
   <COMMENT></COMMENT>
 </INVOKE>
 
-<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.utils:setCompatibilityModeFalse">
+<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.utils:setCompatibilityModeFalse" DISABLED="true">
   <COMMENT></COMMENT>
 </INVOKE>
 
