@@ -299,7 +299,7 @@
   <COMMENT></COMMENT>
 </INVOKE>
 
-<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.file:bytesToFile">
+<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.utils:createSecureString">
   <COMMENT></COMMENT>
 </INVOKE>
 </FLOW>
