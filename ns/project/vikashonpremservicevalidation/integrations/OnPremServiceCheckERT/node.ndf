@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">vikash</value>
-    <value name="lastModifiedDate">1718360314287</value>
+    <value name="lastModifiedDate">1718360342764</value>
     <value name="displayName">OnPremServiceCheckERT</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -1106,9 +1106,9 @@
           <null name="services"/>
         </record>
         <record name="serviceName" javaclass="com.wm.util.Values">
-          <value name="description">ServiceValidationOnPrem.utils:getServerProperty</value>
-          <value name="serviceName">ServiceValidationOnPrem.utils:getServerProperty</value>
-          <value name="displayName">getServerProperty</value>
+          <value name="description">ServiceValidationOnPrem.flow:setResponse2</value>
+          <value name="serviceName">ServiceValidationOnPrem.flow:setResponse2</value>
+          <value name="displayName">setResponse2</value>
         </record>
         <null name="outputMapSet"/>
         <null name="mapSet"/>
