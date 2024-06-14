@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">vikash</value>
-    <value name="lastModifiedDate">1718275292410</value>
+    <value name="lastModifiedDate">1718360314287</value>
     <value name="displayName">OnPremServiceCheckERT</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -1095,11 +1095,31 @@
         <null name="outputMapSet"/>
         <null name="mapSet"/>
         <Boolean name="serviceReferenceResolved">true</Boolean>
-        <value name="nodePathForDebug">47</value>
+        <value name="nodePathForDebug">48</value>
       </record>
       <record name="/49" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">PACKAGES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">webOnPremServiceValidationRepo</value>
+          <value name="groupName">webOnPremServiceValidationRepo;1.0</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="description">ServiceValidationOnPrem.utils:getServerProperty</value>
+          <value name="serviceName">ServiceValidationOnPrem.utils:getServerProperty</value>
+          <value name="displayName">getServerProperty</value>
+        </record>
+        <null name="outputMapSet"/>
+        <null name="mapSet"/>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">48</value>
+        <Boolean name="allowCustomOperations">true</Boolean>
+      </record>
+      <record name="/50" javaclass="com.wm.util.Values">
         <value name="itemType">ALL</value>
         <value name="name">NEW</value>
+        <value name="nodePathForDebug">49</value>
       </record>
     </record>
   </record>
