@@ -331,7 +331,11 @@
   <COMMENT></COMMENT>
 </INVOKE>
 
-<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.flow:setResponseCode">
+<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.flow:setResponseCode" DISABLED="true">
+  <COMMENT></COMMENT>
+</INVOKE>
+
+<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.flow:setResponseHeader">
   <COMMENT></COMMENT>
 </INVOKE>
 
