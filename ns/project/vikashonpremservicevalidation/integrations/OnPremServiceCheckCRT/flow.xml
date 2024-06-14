@@ -326,8 +326,4 @@
 <INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.flow:setResponseHeaders">
   <COMMENT></COMMENT>
 </INVOKE>
-
-<SEQUENCE NAME="NEW" EXIT-ON="FAILURE">
-  <COMMENT></COMMENT>
-</SEQUENCE>
 </FLOW>
