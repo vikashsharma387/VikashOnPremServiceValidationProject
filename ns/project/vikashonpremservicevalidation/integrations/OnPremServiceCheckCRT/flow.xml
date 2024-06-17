@@ -323,7 +323,7 @@
   <COMMENT></COMMENT>
 </INVOKE>
 
-<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.flow:setResponseHeaders">
+<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.flow:setResponseHeaders" DISABLED="true">
   <COMMENT></COMMENT>
 </INVOKE>
 
