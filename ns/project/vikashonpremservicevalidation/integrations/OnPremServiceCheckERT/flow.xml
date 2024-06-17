@@ -9,7 +9,7 @@
   <COMMENT></COMMENT>
 </INVOKE>
 
-<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.flow:debugLog" DISABLED="true">
+<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.flow:debugLog">
   <COMMENT></COMMENT>
 </INVOKE>
 
@@ -343,7 +343,7 @@
   <COMMENT></COMMENT>
 </INVOKE>
 
-<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.flow:tracePipeLine">
+<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.flow:tracePipeLine" DISABLED="true">
   <COMMENT></COMMENT>
 </INVOKE>
 
