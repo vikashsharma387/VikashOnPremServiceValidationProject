@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">vikash</value>
-    <value name="lastModifiedDate">1718612233318</value>
+    <value name="lastModifiedDate">1718612298841</value>
     <value name="displayName">OnPremServiceCheckCRT</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -1070,9 +1070,9 @@
           <null name="services"/>
         </record>
         <record name="serviceName" javaclass="com.wm.util.Values">
-          <value name="description">ServiceValidationOnPrem.report:runStringTemplateOnPipe</value>
-          <value name="serviceName">ServiceValidationOnPrem.report:runStringTemplateOnPipe</value>
-          <value name="displayName">runStringTemplateOnPipe</value>
+          <value name="description">ServiceValidationOnPrem.report:runTemplateOnPipe</value>
+          <value name="serviceName">ServiceValidationOnPrem.report:runTemplateOnPipe</value>
+          <value name="displayName">runTemplateOnPipe</value>
         </record>
         <null name="outputMapSet"/>
         <null name="mapSet"/>
