@@ -335,7 +335,7 @@
   <COMMENT></COMMENT>
 </INVOKE>
 
-<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.report:runStringTemplateOnPipe">
+<INVOKE NAME="webOnPremServiceValidationRepo" SERVICE="ServiceValidationOnPrem.report:runTemplateOnPipe">
   <COMMENT></COMMENT>
 </INVOKE>
 </FLOW>
