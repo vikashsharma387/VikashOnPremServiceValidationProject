@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">vikash</value>
-    <value name="lastModifiedDate">1718687083327</value>
+    <value name="lastModifiedDate">1718687675744</value>
     <value name="displayName">OnPremServiceCheckCRT</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -1214,6 +1214,26 @@
         <value name="nodePathNew">53</value>
         <number name="nodeIndex" type="Long">53</number>
         <number name="lineNumberForDebug" type="Long">54</number>
+      </record>
+      <record name="/54" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">SERVICES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">Flow</value>
+          <value name="groupName">flow</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="displayName">debugLog</value>
+          <value name="serviceName">pub.flow:debugLog</value>
+          <value name="transformerSupport">false</value>
+        </record>
+        <number name="ui_step_index" type="Long">55</number>
+        <value name="nodePathNew">54</value>
+        <number name="nodeIndex" type="Long">54</number>
+        <number name="lineNumberForDebug" type="Long">55</number>
+        <null name="mapSet"/>
+        <null name="outputMapSet"/>
       </record>
     </record>
   </record>
