@@ -37,6 +37,8 @@ services:
     version: "1.0"
   - name: ShipmentPackage
     version: "1.0"
+  - name: TestTemplateRep
+    version: "1.0"
 - serviceName: ServiceValidationOnPrem.flow:ClearPiplineFS
   packages:
   - name: webOnPremServiceValidationRepo
@@ -243,6 +245,8 @@ services:
     version: "1.0"
   - name: ShipmentPackage
     version: "1.0"
+  - name: TestTemplateRep
+    version: "1.0"
 - serviceName: project.vikashonpremservicevalidation.integrations:ShipmentDetails
   packages:
   - name: VikashOnPremServiceValidationProject
@@ -250,6 +254,8 @@ services:
   - name: ShipmentPackage
     version: "1.0"
   - name: webOnPremServiceValidationRepo
+    version: "1.0"
+  - name: TestTemplateRep
     version: "1.0"
 - serviceName: ShipmentPackage.flowService:GetShipmentByID
   packages:
@@ -271,6 +277,8 @@ services:
     version: "1.0"
   - name: webOnPremServiceValidationRepo
     version: "1.0"
+  - name: TestTemplateRep
+    version: "1.0"
 - serviceName: project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:GetEmployeeData
   packages:
   - name: VikashOnPremServiceValidationProject
@@ -278,6 +286,8 @@ services:
   - name: ShipmentPackage
     version: "1.0"
   - name: webOnPremServiceValidationRepo
+    version: "1.0"
+  - name: TestTemplateRep
     version: "1.0"
 - serviceName: ShipmentPackage.flowService:GetShipmentOnStatus
   packages:
@@ -307,6 +317,8 @@ services:
     version: "1.0"
   - name: webOnPremServiceValidationRepo
     version: "1.0"
+  - name: TestTemplateRep
+    version: "1.0"
 - serviceName: ServiceValidationOnPrem.flow:SFTPFlowservice
   packages:
   - name: webOnPremServiceValidationRepo
@@ -314,7 +326,7 @@ services:
 - serviceName: pub.client.sftp:login
   packages:
   - name: WmPublic
-    version: 11.0.0.0.804
+    version: 11.0.0.0.927
 - serviceName: ServiceValidationOnPrem.flow:InvokeIteratorService
   packages:
   - name: webOnPremServiceValidationRepo
@@ -681,50 +693,106 @@ services:
     version: "1.0"
   - name: TestTemplateRep
     version: "1.0"
+- serviceName: project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:DB_Conn_For_NewOnPremContainer
+  packages:
+  - name: VikashOnPremServiceValidationProject
+    version: "1.0"
+  - name: ShipmentPackage
+    version: "1.0"
+  - name: webOnPremServiceValidationRepo
+    version: "1.0"
+  - name: TestTemplateRep
+    version: "1.0"
 configurationVariables:
-  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionSettings.databaseName
-  : DataStore
-  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionSettings.password
-  : "{AES}aYrXC43dTWsDUHRWG5mhTA=="
+  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DB_Conn_For_NewOnPremContainer.connectionManagerSettings.heartBeatInterval
+  : "0"
   ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionSettings.keyStore
   : ""
+  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DB_Conn_For_NewOnPremContainer.connectionSettings.otherProperties
+  : loginTimeout=60;
   ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionManagerSettings.startupRetryCount
   : "0"
   ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionManagerSettings.poolIncrementSize
   : "1"
+  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DB_Conn_For_NewOnPremContainer.connectionManagerSettings.startupBackoffSecs
+  : "10"
   ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionSettings.dbType
   : MSSQL
   ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionSettings.datasourceClass
   : com.wm.dd.jdbcx.sqlserver.SQLServerDataSource
   ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionSettings.portNumber
   : "1433"
+  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionManagerSettings.maximumPoolSize
+  : "10"
+  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DB_Conn_For_NewOnPremContainer.connectionSettings.portNumber
+  : "1433"
+  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DB_Conn_For_NewOnPremContainer.connectionManagerSettings.minimumPoolSize
+  : "1"
+  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionManagerSettings.blockingTimeout
+  : "1000"
+  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DB_Conn_For_NewOnPremContainer.connectionSettings.datasourceClass
+  : com.wm.dd.jdbcx.sqlserver.SQLServerDataSource
+  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionEnabled
+  : "false"
+  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DB_Conn_For_NewOnPremContainer.connectionSettings.networkProtocol
+  : ""
+  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionManagerSettings.heartBeatInterval
+  : "0"
+  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DB_Conn_For_NewOnPremContainer.connectionManagerSettings.poolIncrementSize
+  : "1"
+  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionSettings.driverType
+  : Progress® DataDirect®
+  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DB_Conn_For_NewOnPremContainer.connectionSettings.databaseName
+  : DataStore
+  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DB_Conn_For_NewOnPremContainer.connectionSettings.trustStore
+  : ""
+  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DB_Conn_For_NewOnPremContainer.connectionManagerSettings.poolable
+  : "true"
+  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionSettings.databaseName
+  : DataStore
+  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DB_Conn_For_NewOnPremContainer.connectionSettings.serverName
+  : host.docker.internal
+  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionSettings.password
+  : "{AES}aYrXC43dTWsDUHRWG5mhTA=="
+  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DB_Conn_For_NewOnPremContainer.connectionSettings.dbType
+  : MSSQL
+  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DB_Conn_For_NewOnPremContainer.connectionManagerSettings.maximumPoolSize
+  : "20"
   ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionSettings.networkProtocol
   : ""
+  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DB_Conn_For_NewOnPremContainer.connectionManagerSettings.expireTimeout
+  : "5000"
   ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionSettings.transactionType
   : NO_TRANSACTION
   ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionSettings.otherProperties
   : loginTimeout=60;
+  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DB_Conn_For_NewOnPremContainer.connectionManagerSettings.blockingTimeout
+  : "5000"
+  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DB_Conn_For_NewOnPremContainer.connectionSettings.driverType
+  : Progress® DataDirect®
+  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DB_Conn_For_NewOnPremContainer.connectionSettings.keyStore
+  : ""
   ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionSettings.trustStore
   : ""
-  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionManagerSettings.maximumPoolSize
-  : "10"
+  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DB_Conn_For_NewOnPremContainer.connectionManagerSettings.startupRetryCount
+  : "0"
   ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionManagerSettings.expireTimeout
   : "1000"
-  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionManagerSettings.blockingTimeout
-  : "1000"
+  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DB_Conn_For_NewOnPremContainer.connectionSettings.password
+  : "{AES}rGTLI7FSrEEUEWloN9T4rg=="
   ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionSettings.serverName
   : host.docker.internal
   ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionManagerSettings.poolable
   : "false"
-  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionEnabled
+  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DB_Conn_For_NewOnPremContainer.connectionEnabled
   : "false"
+  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DB_Conn_For_NewOnPremContainer.connectionSettings.user
+  : sa
   ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionManagerSettings.startupBackoffSecs
   : "10"
   ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionSettings.user
   : sa
-  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionManagerSettings.heartBeatInterval
-  : "0"
-  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionSettings.driverType
-  : Progress® DataDirect®
   ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionManagerSettings.minimumPoolSize
   : "0"
+  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DB_Conn_For_NewOnPremContainer.connectionSettings.transactionType
+  : NO_TRANSACTION
