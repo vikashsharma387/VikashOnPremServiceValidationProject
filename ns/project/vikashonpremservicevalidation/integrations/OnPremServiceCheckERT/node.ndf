@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">vikash</value>
-    <value name="lastModifiedDate">1718790087000</value>
+    <value name="lastModifiedDate">1718790283328</value>
     <value name="displayName">OnPremServiceCheckERT</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -1298,6 +1298,27 @@
         <value name="nodePathNew">57</value>
         <number name="nodeIndex" type="Long">57</number>
         <number name="lineNumberForDebug" type="Long">58</number>
+      </record>
+      <record name="/58" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">PACKAGES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">TestTemplateRep</value>
+          <value name="groupName">TestTemplateRep;1.0</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="description">TestTemplate:runStringTemplate</value>
+          <value name="serviceName">TestTemplate:runStringTemplate</value>
+          <value name="displayName">runStringTemplate</value>
+        </record>
+        <null name="outputMapSet"/>
+        <null name="mapSet"/>
+        <number name="ui_step_index" type="Long">58</number>
+        <value name="nodePathNew">57</value>
+        <number name="nodeIndex" type="Long">57</number>
+        <number name="lineNumberForDebug" type="Long">58</number>
+        <Boolean name="allowCustomOperations">true</Boolean>
       </record>
     </record>
   </record>

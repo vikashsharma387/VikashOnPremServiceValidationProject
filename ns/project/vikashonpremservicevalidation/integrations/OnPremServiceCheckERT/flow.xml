@@ -359,7 +359,11 @@
   <COMMENT></COMMENT>
 </INVOKE>
 
-<INVOKE NAME="TestTemplateRep" SERVICE="TestTemplate:runTemplate">
+<INVOKE NAME="TestTemplateRep" SERVICE="TestTemplate:runTemplate" DISABLED="true">
+  <COMMENT></COMMENT>
+</INVOKE>
+
+<INVOKE NAME="TestTemplateRep" SERVICE="TestTemplate:runStringTemplate">
   <COMMENT></COMMENT>
 </INVOKE>
 </FLOW>
