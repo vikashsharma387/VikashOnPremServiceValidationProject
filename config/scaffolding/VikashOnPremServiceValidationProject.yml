@@ -663,6 +663,14 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.927
+- serviceName: TestTemplate:runStringTemplate
+  packages:
+  - name: TestTemplateRep
+    version: "1.0"
+- serviceName: pub.report:runStringTemplate
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.927
 configurationVariables:
   ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionSettings.databaseName
   : DataStore
