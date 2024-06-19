@@ -671,6 +671,16 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.927
+- serviceName: project.vikashonpremservicevalidation.integrations:EdgeRunTimeSQLConn
+  packages:
+  - name: VikashOnPremServiceValidationProject
+    version: "1.0"
+  - name: ShipmentPackage
+    version: "1.0"
+  - name: webOnPremServiceValidationRepo
+    version: "1.0"
+  - name: TestTemplateRep
+    version: "1.0"
 configurationVariables:
   ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionSettings.databaseName
   : DataStore
