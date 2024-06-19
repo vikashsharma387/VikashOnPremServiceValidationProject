@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">vikash</value>
-    <value name="lastModifiedDate">1714470281680</value>
+    <value name="lastModifiedDate">1718796535838</value>
     <value name="displayName">GetDatafromOnPremDB</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">
@@ -75,6 +75,8 @@
         <number name="lineNumberForDebug" type="Long">1</number>
         <null name="mapSet"/>
         <null name="outputMapSet"/>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">0</value>
       </record>
       <record name="/1" javaclass="com.wm.util.Values">
         <value name="itemType">APPS</value>
@@ -109,23 +111,24 @@
         <value name="connectionType">sagcloud</value>
         <Boolean name="accountReferenceResolved">true</Boolean>
         <Boolean name="serviceReferenceResolved">true</Boolean>
-        <array name="map" type="object" depth="1">
+        <array name="map" type="object" depth="1" javaclass="java.lang.Object">
         </array>
-        <array name="mapDelete" type="object" depth="1">
+        <array name="mapDelete" type="object" depth="1" javaclass="java.lang.Object">
         </array>
-        <array name="transformer" type="object" depth="1">
+        <array name="transformer" type="object" depth="1" javaclass="java.lang.Object">
         </array>
-        <array name="lookupTransformer" type="object" depth="1">
+        <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
         </array>
-        <array name="mapSet" type="object" depth="1">
+        <array name="mapSet" type="object" depth="1" javaclass="java.lang.Object">
         </array>
-        <array name="inputMap" type="object" depth="1">
+        <array name="inputMap" type="object" depth="1" javaclass="java.lang.Object">
         </array>
-        <array name="outputMap" type="object" depth="1">
+        <array name="outputMap" type="object" depth="1" javaclass="java.lang.Object">
         </array>
         <value name="nodePathNew">1</value>
         <number name="nodeIndex" type="Long">1</number>
         <number name="lineNumberForDebug" type="Long">2</number>
+        <value name="nodePathForDebug">1</value>
       </record>
       <record name="/2" javaclass="com.wm.util.Values">
         <null name="name"/>
@@ -146,6 +149,27 @@
         <number name="lineNumberForDebug" type="Long">3</number>
         <null name="mapSet"/>
         <null name="outputMapSet"/>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">2</value>
+      </record>
+      <record name="/3" javaclass="com.wm.util.Values">
+        <value name="itemType">APPS</value>
+        <value name="id">com.wm.adapter.wmjdbc.JDBCAdapter</value>
+        <value name="name">Database</value>
+        <value name="providerName">WmJDBCAdapter</value>
+        <null name="operation"/>
+        <value name="appType">predefined</value>
+        <Boolean name="hasAccount">true</Boolean>
+        <Boolean name="allowCustomOperations">true</Boolean>
+        <value name="allowDeleteApplication">false</value>
+        <value name="allowUpdateApplication">false</value>
+        <null name="certified"/>
+        <Boolean name="deprecated">false</Boolean>
+        <value name="description">Database Application enables you to perform database operation</value>
+        <null name="icon"/>
+        <value name="packageName">WmJDBCAdapter</value>
+        <value name="type">Adapters</value>
+        <value name="version">1.0</value>
       </record>
     </record>
   </record>
