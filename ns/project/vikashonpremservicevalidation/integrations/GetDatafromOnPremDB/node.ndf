@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">vikash</value>
-    <value name="lastModifiedDate">1718856881049</value>
+    <value name="lastModifiedDate">1718862024911</value>
     <value name="displayName">GetDatafromOnPremDB</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">
@@ -128,8 +128,8 @@
         <value name="nodePathNew">1</value>
         <number name="nodeIndex" type="Long">1</number>
         <number name="lineNumberForDebug" type="Long">2</number>
-        <value name="nodePathForDebug">1</value>
         <number name="ui_step_index" type="Long">2</number>
+        <value name="nodePathForDebug">1</value>
       </record>
       <record name="/2" javaclass="com.wm.util.Values">
         <null name="name"/>
@@ -158,7 +158,13 @@
         <value name="id">com.wm.adapter.wmjdbc.JDBCAdapter</value>
         <value name="name">Database</value>
         <value name="providerName">WmJDBCAdapter</value>
-        <null name="operation"/>
+        <record name="operation" javaclass="com.wm.util.Values">
+          <value name="operationName">GetEmployeeData</value>
+          <null name="description"/>
+          <value name="isCustom">true</value>
+          <value name="operationType">actions</value>
+          <value name="projectName">project.vikashonpremservicevalidation</value>
+        </record>
         <value name="appType">predefined</value>
         <Boolean name="hasAccount">true</Boolean>
         <Boolean name="allowCustomOperations">true</Boolean>
@@ -171,11 +177,33 @@
         <value name="packageName">WmJDBCAdapter</value>
         <value name="type">Adapters</value>
         <value name="version">1.0</value>
-        <Boolean name="serviceReferenceResolved">false</Boolean>
-        <value name="nodePathForDebug">3</value>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
         <value name="nodePathNew">3</value>
         <number name="nodeIndex" type="Long">3</number>
         <number name="lineNumberForDebug" type="Long">4</number>
+        <value name="nodePathForDebug">3</value>
+        <array name="map" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="mapDelete" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="transformer" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="mapSet" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="inputMap" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="outputMap" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <record name="connection" javaclass="com.wm.util.Values">
+          <value name="connectionName">Database_5</value>
+          <value name="connectionType">webMethods Adapter for JDBC ExtendedConnection</value>
+          <null name="description"/>
+        </record>
+        <value name="connectionNSName">project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_5</value>
+        <value name="connectionType">webMethods Adapter for JDBC ExtendedConnection</value>
+        <Boolean name="accountReferenceResolved">true</Boolean>
       </record>
     </record>
   </record>
