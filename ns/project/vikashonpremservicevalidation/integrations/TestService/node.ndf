@@ -15,6 +15,63 @@
       <value name="form_qualified">false</value>
       <value name="is_global">false</value>
       <array name="rec_fields" type="record" depth="1">
+        <record javaclass="com.wm.util.Values">
+          <value name="node_type">field</value>
+          <value name="node_subtype">unknown</value>
+          <value name="node_comment"></value>
+          <record name="node_hints" javaclass="com.wm.util.Values">
+            <value name="field_largerEditor">false</value>
+            <value name="field_password">false</value>
+            <value name="field_usereditable">false</value>
+            <value name="id">84a319a0-2f08-11ef-9bca-e7dc7e6083d3</value>
+          </record>
+          <value name="is_public">false</value>
+          <value name="field_name">ReqDoc</value>
+          <value name="field_type">record</value>
+          <value name="field_dim">0</value>
+          <value name="nillable">true</value>
+          <value name="form_qualified">false</value>
+          <value name="is_global">false</value>
+          <array name="rec_fields" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">field</value>
+              <value name="node_subtype">unknown</value>
+              <value name="node_comment"></value>
+              <record name="node_hints" javaclass="com.wm.util.Values">
+                <value name="field_largerEditor">false</value>
+                <value name="field_password">false</value>
+                <value name="field_usereditable">false</value>
+                <value name="id">84a319a0-2f08-11ef-9bca-e7dc7e6083d3/84a319a1-2f08-11ef-9bca-e7dc7e6083d3</value>
+              </record>
+              <value name="is_public">false</value>
+              <value name="field_name">num1</value>
+              <value name="field_type">string</value>
+              <value name="field_dim">0</value>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">field</value>
+              <value name="node_subtype">unknown</value>
+              <value name="node_comment"></value>
+              <record name="node_hints" javaclass="com.wm.util.Values">
+                <value name="field_largerEditor">false</value>
+                <value name="field_password">false</value>
+                <value name="field_usereditable">false</value>
+                <value name="id">84a319a0-2f08-11ef-9bca-e7dc7e6083d3/84a319a2-2f08-11ef-9bca-e7dc7e6083d3</value>
+              </record>
+              <value name="is_public">false</value>
+              <value name="field_name">num2</value>
+              <value name="field_type">string</value>
+              <value name="field_dim">0</value>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+            </record>
+          </array>
+          <value name="modifiable">true</value>
+        </record>
       </array>
       <value name="modifiable">true</value>
     </record>
@@ -46,7 +103,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">vikash</value>
-    <value name="lastModifiedDate">1718889655843</value>
+    <value name="lastModifiedDate">1718889955866</value>
     <value name="displayName">TestService</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -72,6 +129,46 @@
         <number name="lineNumberForDebug" type="Long">1</number>
       </record>
       <record name="/1" javaclass="com.wm.util.Values">
+        <value name="itemType">CONTROLS</value>
+        <value name="name">TRANSFORM</value>
+        <number name="ui_step_index" type="Long">2</number>
+        <value name="nodePathNew">1</value>
+        <number name="nodeIndex" type="Long">1</number>
+        <number name="lineNumberForDebug" type="Long">2</number>
+        <array name="map" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="mapSet" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="mapDelete" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="transformer" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+      </record>
+      <null name="/1/0"/>
+      <null name="/1/1"/>
+      <record name="/2" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">SERVICES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">Document</value>
+          <value name="groupName">document</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="displayName">documentToBytes</value>
+          <value name="serviceName">pub.document:documentToBytes</value>
+          <value name="transformerSupport">true</value>
+        </record>
+        <number name="ui_step_index" type="Long">3</number>
+        <value name="nodePathNew">2</value>
+        <number name="nodeIndex" type="Long">2</number>
+        <number name="lineNumberForDebug" type="Long">3</number>
+        <null name="mapSet"/>
+        <null name="outputMapSet"/>
+      </record>
+      <record name="/3" javaclass="com.wm.util.Values">
         <null name="name"/>
         <value name="itemType">SERVICES</value>
         <record name="serviceInfo" javaclass="com.wm.util.Values">
@@ -84,15 +181,15 @@
           <value name="serviceName">pub.client:http</value>
           <value name="transformerSupport">false</value>
         </record>
-        <number name="ui_step_index" type="Long">2</number>
-        <value name="nodePathNew">1</value>
-        <number name="nodeIndex" type="Long">1</number>
-        <number name="lineNumberForDebug" type="Long">2</number>
+        <number name="ui_step_index" type="Long">4</number>
+        <value name="nodePathNew">3</value>
+        <number name="nodeIndex" type="Long">3</number>
+        <number name="lineNumberForDebug" type="Long">4</number>
         <null name="mapSet"/>
         <null name="outputMapSet"/>
         <Boolean name="xmlMapsetSupported">true</Boolean>
       </record>
-      <record name="/2" javaclass="com.wm.util.Values">
+      <record name="/4" javaclass="com.wm.util.Values">
         <null name="name"/>
         <value name="itemType">SERVICES</value>
         <record name="serviceInfo" javaclass="com.wm.util.Values">
