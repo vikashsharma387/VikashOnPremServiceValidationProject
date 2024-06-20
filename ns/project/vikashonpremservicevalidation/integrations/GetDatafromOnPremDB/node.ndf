@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">vikash</value>
-    <value name="lastModifiedDate">1718862179418</value>
+    <value name="lastModifiedDate">1718862560016</value>
     <value name="displayName">GetDatafromOnPremDB</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">
@@ -159,10 +159,10 @@
         <value name="name">Database</value>
         <value name="providerName">WmJDBCAdapter</value>
         <record name="operation" javaclass="com.wm.util.Values">
-          <value name="operationName">GetEmployeeData</value>
-          <null name="description"/>
+          <value name="operationName">GetPurchaseOrderDetails</value>
           <value name="isCustom">true</value>
           <value name="operationType">actions</value>
+          <value name="connectionType">sagcloud</value>
           <value name="projectName">project.vikashonpremservicevalidation</value>
         </record>
         <value name="appType">predefined</value>
@@ -196,12 +196,12 @@
         <array name="outputMap" type="object" depth="1" javaclass="java.lang.Object">
         </array>
         <record name="connection" javaclass="com.wm.util.Values">
-          <value name="connectionName">Database_5</value>
-          <value name="connectionType">webMethods Adapter for JDBC ExtendedConnection</value>
+          <value name="connectionName">TestDBCOnn</value>
+          <value name="connectionType">sagcloud</value>
           <null name="description"/>
         </record>
-        <value name="connectionNSName">project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_5</value>
-        <value name="connectionType">webMethods Adapter for JDBC ExtendedConnection</value>
+        <value name="connectionNSName">project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:TestDBCOnn</value>
+        <value name="connectionType">sagcloud</value>
         <Boolean name="accountReferenceResolved">true</Boolean>
         <value name="nodePathForDebug">3</value>
       </record>
