@@ -103,7 +103,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">vikash</value>
-    <value name="lastModifiedDate">1718889955866</value>
+    <value name="lastModifiedDate">1718890496392</value>
     <value name="displayName">TestService</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -123,10 +123,10 @@
         <null name="outputMapSet"/>
         <null name="mapSet"/>
         <Boolean name="serviceReferenceResolved">true</Boolean>
-        <value name="nodePathForDebug">0</value>
         <value name="nodePathNew">0</value>
         <number name="nodeIndex" type="Long">0</number>
         <number name="lineNumberForDebug" type="Long">1</number>
+        <value name="nodePathForDebug">0</value>
       </record>
       <record name="/1" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
@@ -145,20 +145,22 @@
         </array>
         <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
         </array>
+        <value name="nodePathForDebug">1</value>
       </record>
       <null name="/1/0"/>
       <null name="/1/1"/>
+      <null name="/1/2"/>
       <record name="/2" javaclass="com.wm.util.Values">
         <null name="name"/>
         <value name="itemType">SERVICES</value>
         <record name="serviceInfo" javaclass="com.wm.util.Values">
-          <value name="groupDisplayName">Document</value>
-          <value name="groupName">document</value>
+          <value name="groupDisplayName">String</value>
+          <value name="groupName">string</value>
           <null name="services"/>
         </record>
         <record name="serviceName" javaclass="com.wm.util.Values">
-          <value name="displayName">documentToBytes</value>
-          <value name="serviceName">pub.document:documentToBytes</value>
+          <value name="displayName">stringToBytes</value>
+          <value name="serviceName">pub.string:stringToBytes</value>
           <value name="transformerSupport">true</value>
         </record>
         <number name="ui_step_index" type="Long">3</number>
@@ -172,6 +174,28 @@
         <null name="name"/>
         <value name="itemType">SERVICES</value>
         <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">Document</value>
+          <value name="groupName">document</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="displayName">documentToBytes</value>
+          <value name="serviceName">pub.document:documentToBytes</value>
+          <value name="transformerSupport">true</value>
+        </record>
+        <number name="ui_step_index" type="Long">3</number>
+        <value name="nodePathNew">3</value>
+        <number name="nodeIndex" type="Long">3</number>
+        <number name="lineNumberForDebug" type="Long">4</number>
+        <null name="mapSet"/>
+        <null name="outputMapSet"/>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">2</value>
+      </record>
+      <record name="/4" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">SERVICES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
           <value name="groupDisplayName">Client</value>
           <value name="groupName">client</value>
           <null name="services"/>
@@ -181,15 +205,17 @@
           <value name="serviceName">pub.client:http</value>
           <value name="transformerSupport">false</value>
         </record>
-        <number name="ui_step_index" type="Long">4</number>
-        <value name="nodePathNew">3</value>
-        <number name="nodeIndex" type="Long">3</number>
-        <number name="lineNumberForDebug" type="Long">4</number>
+        <number name="ui_step_index" type="Long">5</number>
+        <value name="nodePathNew">4</value>
+        <number name="nodeIndex" type="Long">4</number>
+        <number name="lineNumberForDebug" type="Long">5</number>
         <null name="mapSet"/>
         <null name="outputMapSet"/>
         <Boolean name="xmlMapsetSupported">true</Boolean>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">3</value>
       </record>
-      <record name="/4" javaclass="com.wm.util.Values">
+      <record name="/5" javaclass="com.wm.util.Values">
         <null name="name"/>
         <value name="itemType">SERVICES</value>
         <record name="serviceInfo" javaclass="com.wm.util.Values">
@@ -208,6 +234,8 @@
         <number name="lineNumberForDebug" type="Long">3</number>
         <null name="mapSet"/>
         <null name="outputMapSet"/>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">4</value>
       </record>
     </record>
   </record>
