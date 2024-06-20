@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<FLOW VERSION="1.0" CLEANUP="false">
+<FLOW VERSION="3.0" CLEANUP="true">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
@@ -101,8 +101,7 @@
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">
-  <value name="xml">******************************* 
- Get Data from ON  PREM DB Started*******************************</value>
+  <value name="xml">*******************************  Get Data from ON  PREM DB Started*******************************</value>
 </Values>
 </DATA>
 </MAPSET>
@@ -231,8 +230,7 @@
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">
-  <value name="xml">******************************* 
- Get Data from ON  PREM DB Completed*******************************</value>
+  <value name="xml">*******************************  Get Data from ON  PREM DB Completed*******************************</value>
 </Values>
 </DATA>
 </MAPSET>
@@ -241,5 +239,9 @@
 <MAP MODE="OUTPUT">
   <COMMENT></COMMENT>
 </MAP>
+</INVOKE>
+
+<INVOKE NAME="Invoke predefined:com.wm.adapter.wmjdbc.JDBCAdapter" TIMEOUT="" SERVICE="project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.:" VALIDATE-IN="" VALIDATE-OUT="" DISABLED="true">
+  <COMMENT></COMMENT>
 </INVOKE>
 </FLOW>

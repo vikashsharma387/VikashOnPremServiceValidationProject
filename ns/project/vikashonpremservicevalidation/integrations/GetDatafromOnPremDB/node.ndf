@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">vikash</value>
-    <value name="lastModifiedDate">1718796535838</value>
+    <value name="lastModifiedDate">1718856881049</value>
     <value name="displayName">GetDatafromOnPremDB</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">
@@ -129,6 +129,7 @@
         <number name="nodeIndex" type="Long">1</number>
         <number name="lineNumberForDebug" type="Long">2</number>
         <value name="nodePathForDebug">1</value>
+        <number name="ui_step_index" type="Long">2</number>
       </record>
       <record name="/2" javaclass="com.wm.util.Values">
         <null name="name"/>
@@ -170,6 +171,11 @@
         <value name="packageName">WmJDBCAdapter</value>
         <value name="type">Adapters</value>
         <value name="version">1.0</value>
+        <Boolean name="serviceReferenceResolved">false</Boolean>
+        <value name="nodePathForDebug">3</value>
+        <value name="nodePathNew">3</value>
+        <number name="nodeIndex" type="Long">3</number>
+        <number name="lineNumberForDebug" type="Long">4</number>
       </record>
     </record>
   </record>
