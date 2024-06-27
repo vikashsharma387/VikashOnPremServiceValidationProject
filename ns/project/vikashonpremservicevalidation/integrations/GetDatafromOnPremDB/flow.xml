@@ -130,7 +130,7 @@
 </MAP>
 </INVOKE>
 
-<INVOKE NAME="Invoke predefined:com.wm.adapter.wmjdbc.JDBCAdapter" TIMEOUT="" SERVICE="project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:GetEmployeeData" VALIDATE-IN="" VALIDATE-OUT="">
+<INVOKE NAME="Invoke predefined:com.wm.adapter.wmjdbc.JDBCAdapter" TIMEOUT="" SERVICE="project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:GetEmployeeData" VALIDATE-IN="" VALIDATE-OUT="" DISABLED="true">
   <COMMENT></COMMENT>
 </INVOKE>
 
@@ -241,7 +241,7 @@
 </MAP>
 </INVOKE>
 
-<INVOKE NAME="Invoke predefined:com.wm.adapter.wmjdbc.JDBCAdapter" TIMEOUT="" SERVICE="project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:GetPurchaseOrderDetails" VALIDATE-IN="" VALIDATE-OUT="" DISABLED="true">
+<INVOKE NAME="Invoke predefined:com.wm.adapter.wmjdbc.JDBCAdapter" TIMEOUT="" SERVICE="project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:GetPurchaseOrderDetails" VALIDATE-IN="" VALIDATE-OUT="">
   <COMMENT></COMMENT>
 </INVOKE>
 </FLOW>
