@@ -1073,7 +1073,7 @@
 </MAP>
 </INVOKE>
 
-<INVOKE NAME="String" SERVICE="pub.string:bytesToString">
+<INVOKE NAME="String" SERVICE="pub.string:bytesToString" DISABLED="true">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
