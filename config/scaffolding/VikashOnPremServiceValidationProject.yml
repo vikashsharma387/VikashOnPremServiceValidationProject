@@ -28,6 +28,11 @@ packages:
   gitUrl: https://github.com/vikashsharma387
   gitUsername: vikashsharma387
   gitBranch: main
+- name: customCobrandingService
+  gitServerName: vikashNewGit
+  gitUrl: https://github.com/vikashsharma387
+  gitUsername: vikashsharma387
+  gitBranch: main
 services:
 - serviceName: project.vikashonpremservicevalidation.integrations:OnPremServiceCheckCRT
   packages:
@@ -778,10 +783,10 @@ services:
   - name: WmPublic
     version: 11.0.0.0.927
 configurationVariables:
-  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.onPremDB.connectionSettings.databaseName
-  : DataStore
   ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DB_Conn_For_NewOnPremContainer.connectionManagerSettings.heartBeatInterval
   : "0"
+  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.onPremDB.connectionSettings.databaseName
+  : DataStore
   ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_5.connectionSettings.networkProtocol
   : tcp
   ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.onPremDB.connectionManagerSettings.startupRetryCount
@@ -792,22 +797,22 @@ configurationVariables:
   : ""
   ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DB_Conn_For_NewOnPremContainer.connectionSettings.otherProperties
   : loginTimeout=60;
-  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DB_Conn_For_NewOnPremContainer.connectionManagerSettings.startupBackoffSecs
-  : "10"
-  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionManagerSettings.poolIncrementSize
-  : "1"
   ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionManagerSettings.startupRetryCount
   : "0"
+  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionManagerSettings.poolIncrementSize
+  : "1"
+  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DB_Conn_For_NewOnPremContainer.connectionManagerSettings.startupBackoffSecs
+  : "10"
   ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.TestDBCOnn.connectionManagerSettings.blockingTimeout
   : "5000"
   ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionSettings.dbType
   : MSSQL
   ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.TestDBCOnn.connectionSettings.serverName
   : host.docker.internal
-  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionSettings.datasourceClass
-  : com.wm.dd.jdbcx.sqlserver.SQLServerDataSource
   ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionSettings.portNumber
   : "1433"
+  ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_OnPrem_Conn.connectionSettings.datasourceClass
+  : com.wm.dd.jdbcx.sqlserver.SQLServerDataSource
   ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.onPremDBconnForNewContainer.connectionSettings.datasourceClass
   : com.wm.dd.jdbcx.sqlserver.SQLServerDataSource
   ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_5.connectionSettings.transactionType
