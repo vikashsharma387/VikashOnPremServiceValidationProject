@@ -11,17 +11,19 @@
     <value name="TestTemplateRep">1.0</value>
     <value name="webOnPremServiceValidationRepo">1.0</value>
     <value name="ShipmentPackage">1.0</value>
+    <value name="customCobrandingService">1.0</value>
+    <value name="DeliveryPartner">1.0</value>
   </record>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">325</value>
+  <value name="build">328</value>
   <null name="description"/>
   <value name="created_date">19-04-2024 10:38:37 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2024-06-27T06:44:54.728296624Z</value>
+  <value name="lastUpdated">2024-08-12T12:58:18.8323018Z</value>
   <value name="wmProjectId">fl5ffc465c10b1f244c957fc</value>
   <value name="creator">Vikash Sharma</value>
 </Values>
