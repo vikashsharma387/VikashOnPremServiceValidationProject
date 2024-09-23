@@ -45,9 +45,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">vikash</value>
-    <value name="createdDate">1727074265327</value>
-    <value name="lastModifiedDate">1727074265327</value>
+    <value name="lastModifiedBy">vikash</value>
+    <value name="lastModifiedDate">1727074416045</value>
     <value name="displayName">SQLDBFS</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">
@@ -97,13 +96,14 @@
         <array name="outputMap" type="object" depth="1" javaclass="java.lang.Object">
         </array>
         <record name="connection" javaclass="com.wm.util.Values">
-          <value name="connectionName">DB_Conn_For_NewOnPremContainer</value>
+          <value name="connectionName">onPremDBconnForNewContainer</value>
           <value name="connectionType">webMethods Adapter for JDBC ExtendedConnection</value>
           <null name="description"/>
         </record>
-        <value name="connectionNSName">project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:DB_Conn_For_NewOnPremContainer</value>
+        <value name="connectionNSName">project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:onPremDBconnForNewContainer</value>
         <value name="connectionType">webMethods Adapter for JDBC ExtendedConnection</value>
         <Boolean name="accountReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">0</value>
       </record>
     </record>
   </record>
