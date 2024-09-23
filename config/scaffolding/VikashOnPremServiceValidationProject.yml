@@ -1033,7 +1033,7 @@ configurationVariables:
   ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.TestDBCOnn.connectionManagerSettings.startupRetryCount
   : "0"
   ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DataBase_OnPremSQL_DB_Conn.connectionSettings.databaseName
-  : ""
+  : DataStore
   ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.onPremDB.connectionSettings.user
   : sa
   ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DataBase_OnPremSQL_DB_Conn.connectionManagerSettings.minimumPoolSize
