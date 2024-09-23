@@ -765,6 +765,14 @@ services:
     version: "1.0"
   - name: TestTemplateRep
     version: "1.0"
+  - name: customCobrandingService
+    version: "1.0"
+  - name: DeliveryPartner
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.32
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: softwareag
 - serviceName: project.vikashonpremservicevalidation.integrations:test
   packages:
   - name: VikashOnPremServiceValidationProject
@@ -805,6 +813,24 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.1018
+- serviceName: project.vikashonpremservicevalidation.integrations:SQLDBFS
+  packages:
+  - name: VikashOnPremServiceValidationProject
+    version: "1.0"
+  - name: customCobrandingService
+    version: "1.0"
+  - name: ShipmentPackage
+    version: "1.0"
+  - name: DeliveryPartner
+    version: "1.0"
+  - name: webOnPremServiceValidationRepo
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.32
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: softwareag
+  - name: TestTemplateRep
+    version: "1.0"
 configurationVariables:
   ? artConnection.VikashOnPremServiceValidationProject.project.vikashonpremservicevalidation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DB_Conn_For_NewOnPremContainer.connectionManagerSettings.heartBeatInterval
   : "0"
