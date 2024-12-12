@@ -6,7 +6,7 @@
   <!-- nodes -->
 
 <INVOKE NAME="String" SERVICE="pub.string:concat">
-  <COMMENT></COMMENT>
+  <COMMENT>TestComment</COMMENT>
 
   <!-- nodes -->
 
